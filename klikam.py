@@ -33,6 +33,48 @@ def click_in_window():
         if keyboard.is_pressed('q'):
             print("Skript ukončen.")
             break
+        
+        # Center
+        click_at(x, y)
+        click_count += 1
+        time.sleep(click_interval)
+
+        # 10 pixels right from center
+        click_at(x + 10, y)
+        click_count += 1
+        time.sleep(click_interval)
+
+        # Center
+        click_at(x, y)
+        click_count += 1
+        time.sleep(click_interval)
+
+        # 10 pixels left from center
+        click_at(x - 10, y)
+        click_count += 1
+        time.sleep(click_interval)
+
+        # Center
+        click_at(x, y)
+        click_count += 1
+        time.sleep(click_interval)
+
+        # 10 pixels down from center
+        click_at(x, y + 10)
+        click_count += 1
+        time.sleep(click_interval)
+
+        # Center
+        click_at(x, y)
+        click_count += 1
+        time.sleep(click_interval)
+
+        # 10 pixels up from center
+        click_at(x, y - 10)
+        click_count += 1
+        time.sleep(click_interval)
+
+        # Center
         click_at(x, y)
         click_count += 1
         time.sleep(click_interval)
@@ -45,7 +87,7 @@ def start_clicking():
 window_title = "Banana"
 
 # Interval mezi kliknutími v sekundách
-click_interval = 0.001
+click_interval = 0.01
 
 # Počet kliknutí
 click_count = 0
