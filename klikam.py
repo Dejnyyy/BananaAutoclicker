@@ -45,7 +45,7 @@ def start_clicking():
 window_title = "Banana"
 
 # Interval mezi kliknutími v sekundách
-click_interval = 0.0001
+click_interval = 0.001
 
 # Počet kliknutí
 click_count = 0
