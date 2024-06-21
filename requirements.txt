@@ -1,5 +1,8 @@
 pygetwindow
-pypiwin32 || pygetwindow
+pypiwin32
 keyboard
 tkinter
+
+#for mac os
 pyautogui
+pygetwindow
