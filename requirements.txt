@@ -1,4 +1,5 @@
 pygetwindow
-pypiwin32
+pypiwin32 || pygetwindow
 keyboard
 tkinter
+pyautogui
