@@ -1,0 +1,4 @@
+pygetwindow
+pypiwin32
+keyboard
+tkinter
