@@ -60,22 +60,22 @@ def click_in_window():
         time.sleep(click_interval)
 
         # 10 pixels down from center
-        click_at(x, y + 10)
+        click_at(x - 20, y + 60)
         click_count += 1
         time.sleep(click_interval)
 
         # Center
-        click_at(x, y)
+        click_at(x + 20, y + 60)
         click_count += 1
         time.sleep(click_interval)
 
         # 10 pixels up from center
-        click_at(x, y - 10)
+        click_at(x, y + 70)
         click_count += 1
         time.sleep(click_interval)
 
         # Center
-        click_at(x, y)
+        click_at(x, y + 60)
         click_count += 1
         time.sleep(click_interval)
 
