@@ -89,7 +89,7 @@ root.geometry("150x50")
 click_label = tk.Label(root, text=f"Clicks: {click_count}", font=("Helvetica", 12))
 click_label.pack()
 
-# Start the clicking and update thread
+
 Thread(target=start_clicking).start()
 Thread(target=update_click_count).start()
 
